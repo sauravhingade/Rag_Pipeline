@@ -1,0 +1,11 @@
+question,answer
+What is the main contribution of the paper 'Attention Is All You Need'?,"The paper introduces the Transformer, a sequence transduction architecture based entirely on attention, without recurrent or convolutional layers."
+Why did the authors propose the Transformer instead of recurrent neural networks?,"Recurrent networks process sequence positions sequentially, limiting parallelization. The Transformer uses attention to enable more parallel computation."
+How many layers are used in the Transformer encoder and decoder?,Both the encoder and decoder contain six identical layers in the architecture described in the paper.
+What is scaled dot-product attention?,"Scaled dot-product attention calculates query-key dot products, scales them by the square root of the key dimension, applies softmax, and combines the values using the resulting weights."
+Why does the Transformer use multi-head attention?,Multi-head attention lets the model attend to information from different representation subspaces and positions in parallel.
+Why are positional encodings needed in the Transformer?,Positional encodings provide token-order information because the Transformer does not use recurrence or convolution.
+How many attention heads does the base Transformer use?,The base Transformer uses eight attention heads.
+Which optimizer and warmup schedule did the authors use?,"The authors used Adam with beta1=0.9, beta2=0.98, epsilon=1e-9, and 4,000 warmup steps."
+What BLEU score did the Transformer big model achieve on English-to-German translation?,The Transformer big model achieved a BLEU score of 28.4 on the WMT 2014 English-to-German test task.
+What is the main conclusion of the paper?,The paper concludes that an attention-only Transformer can achieve strong machine-translation results while allowing more parallel training.

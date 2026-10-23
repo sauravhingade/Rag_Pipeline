@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Local tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Project-generated data
+logs/
+faiss_index/
+*.log
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep .python-version tracked if your team wants the same local Python version.
+# If you prefer not to share it, add: .python-version
